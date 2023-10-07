@@ -11,7 +11,7 @@ namespace F4RKingdoms.Entities
     {
         public int Force { get; set; }
         public UnitRank Rank { get; set; }
-
+        public int[,] Movement { get; set; }
         public int Teste { get; set; }
         public UnitCard() { }
 
@@ -21,5 +21,27 @@ namespace F4RKingdoms.Entities
             Force = force;
         }
 
+        public void MovimentRank(UnitRank rank)
+        {
+            switch (rank)
+            {
+                case UnitRank.Plebeian:
+                    Movement = new int[1, 1];
+                    Movement[1,1] = 1;
+                    Movement[-1,-1] = 1;
+                    Movement[0, 1] = 1;
+                    Movement[1,0] = 1;
+                    break;
+
+                case UnitRank.Scout:
+                    Movement = 2; break;
+
+                case UnitRank.Knight:
+                    Movement = 3; break;
+
+                case UnitRank.Rogue:
+                    Movement = 4; break;
+            }
+        }
     }
 }
