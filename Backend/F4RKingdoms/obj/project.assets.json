@@ -8,19 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\samhu\\.nuget\\packages\\": {}
+    "C:\\Users\\scnfu\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Dev\\F4RKingdom\\Backend\\F4RKingdoms\\F4RKingdoms.csproj",
+      "projectUniqueName": "C:\\Users\\scnfu\\OneDrive\\Área de Trabalho\\Dev\\F4RKingdoms\\Backend\\F4RKingdoms\\F4RKingdoms.csproj",
       "projectName": "F4RKingdoms",
-      "projectPath": "D:\\Dev\\F4RKingdom\\Backend\\F4RKingdoms\\F4RKingdoms.csproj",
-      "packagesPath": "C:\\Users\\samhu\\.nuget\\packages\\",
-      "outputPath": "D:\\Dev\\F4RKingdom\\Backend\\F4RKingdoms\\obj\\",
+      "projectPath": "C:\\Users\\scnfu\\OneDrive\\Área de Trabalho\\Dev\\F4RKingdoms\\Backend\\F4RKingdoms\\F4RKingdoms.csproj",
+      "packagesPath": "C:\\Users\\scnfu\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\scnfu\\OneDrive\\Área de Trabalho\\Dev\\F4RKingdoms\\Backend\\F4RKingdoms\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\samhu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\scnfu\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
